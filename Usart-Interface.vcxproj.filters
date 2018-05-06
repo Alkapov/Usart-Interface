@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Header Files\Registers">
+      <UniqueIdentifier>{5da381b0-f270-4b33-b411-1843f29de2bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -23,11 +26,17 @@
     <ClInclude Include="usart\UsartRegisters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="usart\registers\UcsraRegister.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Usart\Registers\Register.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="usart\registers\UcsraRegister.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="Usart\Registers\UcsrbRegister.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="Usart\Registers\UcsrcRegister.h">
+      <Filter>Header Files\Registers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

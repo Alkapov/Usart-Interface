@@ -103,6 +103,8 @@
   <ItemGroup>
     <ClInclude Include="Usart\Registers\Register.h" />
     <ClInclude Include="usart\registers\UcsraRegister.h" />
+    <ClInclude Include="Usart\Registers\UcsrbRegister.h" />
+    <ClInclude Include="Usart\Registers\UcsrcRegister.h" />
     <ClInclude Include="usart\UsartRegisters.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

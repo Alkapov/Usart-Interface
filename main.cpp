@@ -7,7 +7,8 @@ int main(void)
 	usart.Ucsra.ToggleDor(true);
 	usart.Ucsra.ToggleFe(true);
 	usart.Ucsra.ToggleMpcm(true);
-	
+	usart.Ucsrb.ToggleRxb8(true);
+	usart.Ucsrc.ToggleUcpol(true);
     while (1) 
     {
     }
